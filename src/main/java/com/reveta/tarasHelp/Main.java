@@ -3,7 +3,7 @@ package com.reveta.tarasHelp;
 public class Main {
     public static void main(String[] args) {
         //Ініцілізація
-        StringCase strCase = new StrngCase("TestString");
+        StringCase strCase = new StrіngCase("TestString");
         StringChanger strChanger = new StringChanger();
 
         // Гетер
