@@ -3,7 +3,7 @@ package com.reveta.tarasHelp;
 public class Main {
     public static void main(String[] args) {
         //Ініцілізація
-        StringCase strCase = new StrіngCase("TestString");
+        StrіngCase strCase = new StrіngCase("TestString");
         StringChanger strChanger = new StringChanger();
 
         // Гетер
@@ -19,11 +19,11 @@ public class Main {
 
         //StringChanger.getStringArray(String) - метод який приймає
         // стрічку і повертає масив де в кожній комірці є одна буква стрічки
-        String[] arrayString = StringChanger.getStringArray(strCase.getMainString());
+        String[] arrayString = strChanger.getStringArray(strCase.getMainString());
         System.out.println(arrayString[0].equals("T"));
         System.out.println(arrayString[arrayString.length -1].equals("!"));
 
-
+        //твоя консоль має збігатися із тим, що на скріні ConsoleExample.png
     }
 
 
