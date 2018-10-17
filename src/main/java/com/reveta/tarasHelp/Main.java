@@ -23,7 +23,7 @@ public class Main {
         System.out.println(arrayString[0].equals("T"));
         System.out.println(arrayString[arrayString.length -1].equals("!"));
 
-
+        //твоя консоль має збігатися із тим, що на скріні ConsoleExample.png
     }
 
 
